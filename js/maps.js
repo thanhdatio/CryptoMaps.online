@@ -391,6 +391,15 @@ function draw(checks) {
   if (checkedValues.includes('vr')) {
     var links = links.concat(JSON.parse(JSON.stringify(competingVR)));
   }
+  if (checkedValues.includes('bitcoin')) {
+    var links = links.concat(JSON.parse(JSON.stringify(bitcoin)));
+  }
+  if (checkedValues.includes('ethereum')) {
+    var links = links.concat(JSON.parse(JSON.stringify(ethereum)));
+  }
+   if (checkedValues.includes('binance')) {
+    var links = links.concat(JSON.parse(JSON.stringify(binance)));
+  }
   var nodes = {};
   // Compute the distinct nodes from the links.
   // links.forEach(function(link) {
