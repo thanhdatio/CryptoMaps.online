@@ -202,7 +202,7 @@ var apple = [
 ];
 
 var facebook = [
-  {source: "", target: "Facebook", img: "images/facebook.png", url: "https://en.wikipedia.org/wiki/Facebook", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
+  {source: "", target: "Facebook", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/eth.png", url: "https://en.wikipedia.org/wiki/Facebook", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
   {source: "Facebook", target: "Instagram", type: "acquisition", img: "images/instagram.png", url: "https://en.wikipedia.org/wiki/Instagram", hover: "Instagram (also known as IG) is a photo and video-sharing social networking service owned by Facebook, Inc."},
   {source: "Facebook", target: "WhatsApp", type: "acquisition", img: "images/whatsapp.png", url: "https://en.wikipedia.org/wiki/WhatsApp", hover: "WhatsApp Messenger is a freeware and cross-platform messaging and Voice over IP (VoIP) service owned by Facebook."},
   {source: "Facebook", target: "Oculus VR", type: "acquisition", img: "images/oculus.png", url: "https://en.wikipedia.org/wiki/Oculus_VR", hover: "Oculus VR is an American technology company founded by Palmer Luckey, Brendan Iribe, Michael Antonov and Nate Mitchell in July 2012 in Irvine, California, now based in Menlo Park."},
