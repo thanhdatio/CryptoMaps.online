@@ -273,7 +273,7 @@ var microsoft = [
 ];
 
 var yahoo = [
-  {source: "", target: "Verizon", img: "images/verizon.png"},
+  {source: "", target: "Verizon", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/eth.png"},
   {source: "Verizon", target: "Media and Telematics", type: "main", img: "images/verizon.png"},
   {source: "Media and Telematics", target: "Oath Inc.", type: "main", img: "images/oath.png"},
   {source: "Oath Inc.", target: "Yahoo", type: "acquisition", img: "images/yahoo.png"},
