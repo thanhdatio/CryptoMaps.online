@@ -617,5 +617,5 @@ function dragended(d) {
 
 
 // At first display all clusters
-draw(['alphabet', 'amazon', 'apple', 'facebook', 'microsoft', 'showLogos']);
+draw(['alphabet', 'amazon', 'apple', 'facebook', 'microsoft', 'showLogos', 'bitcoin', 'binance, 'ethereum']);
 // draw(['alphabet', 'amazon', 'apple', 'facebook', 'ibm', 'microsoft', 'yahoo', 'showLogos']);
