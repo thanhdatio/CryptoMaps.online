@@ -423,6 +423,18 @@ function draw(checks) {
    if (checkedValues.includes('binance')) {
     var links = links.concat(JSON.parse(JSON.stringify(binance)));
   }
+  if (checkedValues.includes('tron')) {
+    var links = links.concat(JSON.parse(JSON.stringify(tron)));
+  }
+  if (checkedValues.includes('solana')) {
+    var links = links.concat(JSON.parse(JSON.stringify(solana)));
+  }
+  if (checkedValues.includes('arbitrum')) {
+    var links = links.concat(JSON.parse(JSON.stringify(arbitrum)));
+  }
+  if (checkedValues.includes('polygon')) {
+    var links = links.concat(JSON.parse(JSON.stringify(polygon)));
+  }
   var nodes = {};
   // Compute the distinct nodes from the links.
   // links.forEach(function(link) {
