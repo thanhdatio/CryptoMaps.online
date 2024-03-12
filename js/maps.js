@@ -372,27 +372,7 @@ function draw(checks) {
   var links = [];
   // Tried .concat(); and Array.prototype.push.apply(); 
   // but deep copies of the arrays needed after a d3js .remove() call
-  if (checkedValues.includes('alphabet')) {
-    var links = links.concat(JSON.parse(JSON.stringify(alphabet)));
-  }
-  if (checkedValues.includes('amazon')) {
-    var links = links.concat(JSON.parse(JSON.stringify(amazon)));
-  }
-  if (checkedValues.includes('apple')) {
-    var links = links.concat(JSON.parse(JSON.stringify(apple)));
-  }
-  if (checkedValues.includes('facebook')) {
-    var links = links.concat(JSON.parse(JSON.stringify(facebook)));
-  }
-  if (checkedValues.includes('ibm')) {
-    var links = links.concat(JSON.parse(JSON.stringify(ibm)));
-  }
-  if (checkedValues.includes('microsoft')) {
-    var links = links.concat(JSON.parse(JSON.stringify(microsoft)));
-  }
-  if (checkedValues.includes('yahoo')) {
-    var links = links.concat(JSON.parse(JSON.stringify(yahoo)));
-  }
+  
   if (checkedValues.includes('ai')) {
     var links = links.concat(JSON.parse(JSON.stringify(competingAiResearch)));
   }
