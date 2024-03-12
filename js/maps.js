@@ -301,7 +301,7 @@ var ethereum = [
 ];
 
 var binance = [
-  {source: "", target: "Binance", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bnb.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
+  {source: "Ethereum", target: "Binance", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bnb.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
   {source: "Binance", target: "Binance Chain", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bnb.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
 ];
 
