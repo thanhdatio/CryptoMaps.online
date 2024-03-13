@@ -291,13 +291,20 @@ var yahoo = [
   {source: "Yahoo", target: "GeoCities", type: "acquisition", img: "images/yahoo.png"}
 ];
 var bitcoin = [
-  {source: "", target: "Bitcoin", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/btc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
-  {source: "Bitcoin", target: "Bitcoin Cash", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bch.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
+  {source: "", target: "Bitcoin", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/btc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Bitcoin", target: "Bitcoin Gold", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/btc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Bitcoin", target: "Bitcoin XT", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/btc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Bitcoin", target: "Monero", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/xmr.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Bitcoin", target: "Litecoin", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/ltc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Litecoin", target: "Luckycoin", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/ltc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Luckycoin", target: "Dogecoin", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/doge.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Bitcoin", target: "Ethereum Classic", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/etc.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin"},
+  {source: "Bitcoin", target: "Bitcoin Cash", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bch.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Bitcoin Cash"}
 ];
 
 var ethereum = [
-  {source: "", target: "Ethereum", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/eth.png", url: "https://en.wikipedia.org/wiki/Ethereum", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
-  {source: "Ethereum", target: "Ethereum Pow", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/eth.png", url: "https://en.wikipedia.org/wiki/Ethereum", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
+  {source: "Ethereum Classic", target: "Ethereum", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/eth.png", url: "https://en.wikipedia.org/wiki/Ethereum", hover: "Ethereum"},
+  {source: "Ethereum", target: "Ethereum Pow", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/eth.png", url: "https://en.wikipedia.org/wiki/Ethereum", hover: "Ethereum"}
 ];
 
 var binance = [
@@ -307,7 +314,7 @@ var binance = [
 
 var tron = [
   {source: "Ethereum", target: "Tron", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/trx.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
-  {source: "Tron", target: "Bitcoin Cash", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bch.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
+  {source: "Tron", target: "TUSD", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/tusd.png", url: "https://en.wikipedia.org/wiki/Bitcoin", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
 ];
 
 var solana = [
@@ -317,12 +324,12 @@ var solana = [
 
 var arbitrum = [
   {source: "Ethereum", target: "Arbitrum", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/arb.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
-  {source: "Arbitrum", target: "Binance Chain", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bnb.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
+  {source: "Arbitrum", target: "DAI", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/dai.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
 ];
 
 var polygon = [
   {source: "Ethereum", target: "Polygon", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/matic.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."},
-  {source: "Polygon", target: "Binance Chain", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/bnb.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
+  {source: "Polygon", target: "APE", img: "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/32/icon/ape.png", url: "https://en.wikipedia.org/wiki/Binance", hover: "Facebook, Inc. is an American online social media and social networking service company based in Menlo Park, California."}
 ];
 
 // var zoom = d3.behavior.zoom()
