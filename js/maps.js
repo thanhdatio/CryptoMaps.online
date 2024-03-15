@@ -415,6 +415,6 @@ function dragended(d) {
 
 
 // At first display all clusters
-draw(['ethereum', 'binance', 'bitcoin', 'tron', 'solana', 'arbitrum', 'polygon', 'showLogos']);
+draw(['ethereum', 'binance', 'bitcoin', 'tron', 'solana', 'arbitrum', 'polygon', 'binanceex' 'showLogos']);
 //draw(['alphabet', 'amazon', 'apple', 'facebook', 'microsoft', 'showLogos']);
 // draw(['alphabet', 'amazon', 'apple', 'facebook', 'ibm', 'microsoft', 'yahoo', 'showLogos']);
