@@ -186,6 +186,9 @@ function draw(checks) {
    if (checkedValues.includes('binance')) {
     var links = links.concat(JSON.parse(JSON.stringify(binance)));
   }
+  if (checkedValues.includes('binanceex')) {
+    var links = links.concat(JSON.parse(JSON.stringify(binanceex)));
+  }
   if (checkedValues.includes('tron')) {
     var links = links.concat(JSON.parse(JSON.stringify(tron)));
   }
